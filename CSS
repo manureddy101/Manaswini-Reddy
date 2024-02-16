@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 14px;
+}
+
+.nav-link {
+    margin-right: 12px;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.navitem-cont {
+    margin-top: 25px;
+}
+
+.logo {
+    margin-right: 13px;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.input {
+    border: 2px solid skyblue;
+    height: 25px;
+    width: 230px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 35px;
+
+}
+
+.hori {
+    width: 100%;
+}
+
+hr {
+    width: 100px;
+
+}
+
+.inst {
+    display: flex;
+}
+
+.image1 {
+    width: 260px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .button-cont {
+        text-align: center;
+    }
+}
+
+.mid-hor {
+    width: 320px;
+}
+
+.mid-heading {
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewall {
+    background-color: black;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.watchnow {
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+}
+
+.edition {
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 767px) {
+    .edition {
+        text-align: center;
+    }
+}
+
+.yellow {
+    margin-left: 95px;
+}
+
+.bottom-container {
+    display: flex;
+    text-align: center;
+}
+
+.quote-cont {
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .desk-view {
+        display: none;
+    }
+}
